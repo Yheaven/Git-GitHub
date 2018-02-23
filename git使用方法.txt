@@ -1,13 +1,32 @@
-��װ�꣺
-1. �����û���
+安装完：
+1. 设置用户名
 git config --global user.name 'mar-heaven'
     
-2. �����û�������
+2. 设置用户名邮箱
 git config --global user.email '775650117@qq.com'
 
 
-��ʼ��һ���µ�Git�ֿ�
+初始化一个新的Git仓库
 
-1.�����ļ���
-2.���ļ��ڳ�ʼ��git������git�ֿ⣩
+    1.创建文件夹
+    2.在文件内初始化git    (创建git仓库)
+        cd test
+        pwd (查看当前目录)
+        git init
+
+向仓库添加文件
+    git status  (查看本地工作区、暂存区中文件的修改状态)
+    1.git add file_name   (将文件存入暂存区中)
+    2.git commit –m “本次提交描述”  (将git add .存入暂存区修改内容提交至本地仓库中)
+    
+    修改仓库文件：
+        1.修改文件
+        2.git add file_name
+        3.git commit –m “本次修改描述”
+        
+    
+    删除仓库文件：
+        1.删除文件
+        2.git rm file_name
+        3.git commit -m "删除文件描述"
     
