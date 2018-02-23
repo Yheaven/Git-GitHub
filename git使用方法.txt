@@ -1,0 +1,13 @@
+安装完：
+1. 设置用户名
+git config --global user.name 'mar-heaven'
+    
+2. 设置用户名邮箱
+git config --global user.email '775650117@qq.com'
+
+
+初始化一个新的Git仓库
+
+1.创建文件夹
+2.在文件内初始化git（创建git仓库）
+    
